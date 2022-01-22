@@ -1,0 +1,4 @@
+# settings to ignore
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
