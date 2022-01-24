@@ -34,9 +34,15 @@
 ### 2020 bigcontest
 (2020.08 ~ 12, 팀 참여)
 - [바로가기](https://github.com/sweetpersimmon/Data-Science-Portfolio/tree/main/2020-bigcontest) / [PDF](https://github.com/sweetpersimmon/Data-Science-Portfolio/blob/main/2020-bigcontest/혁신아이디어분야_코로나나빠_결과보고서.pdf)
-- 공모주제(참여부문)
-- 활용 데이터
-- 분석 과정(폴더 링크)
+- 혁신아이디어 부문 뉴노멀 시대 준비를 위한 서비스 아이디어 및 PoC(Proof Of Concept) 결과 제시
+- 데이터 목록(대회 데이터 사용 문제와 용량 제한으로 인하여 본 저장소에는 업로드하지 않았습니다.)
+  |제공데이터|외부데이터|
+  |----|----|
+  |데이터이름|데이터이름|
+- 분석 과정
+  - [EDA](https://github.com/sweetpersimmon/Data-Science-Portfolio/tree/main/2020-bigcontest/eda)
+  - [Index](https://github.com/sweetpersimmon/Data-Science-Portfolio/tree/main/2020-bigcontest/index)
+  - [MCLP](https://github.com/sweetpersimmon/Data-Science-Portfolio/tree/main/2020-bigcontest/mclp)
 - 내 역할
 - 기여자
 
@@ -51,7 +57,7 @@
 
 ### 2021 weather bigdata contest
 (2020.06 ~ 08, 팀 참여)
-- [바로가기](https://github.com/sweetpersimmon/Data-Science-Portfolio/tree/main/2020-bigcontest) / [PDF](https://github.com/sweetpersimmon/Data-Science-Portfolio/blob/main/2020-bigcontest/혁신아이디어분야_코로나나빠_결과보고서.pdf)
+- [바로가기]() / [PDF]()
 - 공모주제(참여부문)
 - 활용 데이터
 - 분석 과정(폴더 링크)
