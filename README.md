@@ -12,7 +12,7 @@
 ### Daagn app review analysis
 (2020.06, 개인 프로젝트)
 * [Notebook](https://github.com/sweetpersimmon/Data-Science-Portfolio/tree/main/daangn-app-review-analysis/code) / [PDF](https://github.com/sweetpersimmon/Data-Science-Portfolio/blob/main/daangn-app-review-analysis/daangn%20app%20review%20analysis%20-%20report.pdf)<br>
-* [구글 플레이 스토어](https://play.google.com/store/apps/details?id=com.towneers.www&hl=ko&gl=US)내 중고거래 서비스 당근마켓 어플의 최근 리뷰 텍스트를 감성분석하여 긍/부정 여부를 예측할 수 있는 분류기를 생성하고, 해당 감성에 각 어휘가 영향을 미치는 정도를 시각화했습니다. 또한 긍/부정 리뷰에서 주로 사용하는 키워드를 좌표 평면에 나타내어 키워드 군집을 확인하고 군집 별 특성을 파악했습니다.
+* [구글 플레이 스토어](https://play.google.com/store/apps/details?id=com.towneers.www&hl=ko&gl=US)내 중고거래 서비스 당근마켓 어플의 최근 리뷰를 감성분석하여 **특정 리뷰의 긍/부정 여부를 예측**할 수 있는 분류기를 생성하고, 해당 감성에 각 어휘가 영향을 미치는 정도를 시각화했습니다. 또한 긍/부정 리뷰에서 주로 사용하는 키워드를 좌표 평면에 나타내어 **감성 별 주로 사용하는 키워드 군집을 확인**하고 군집 별 특성을 파악했습니다.
 <br><br>
 
 ### Ko-en machine translation
