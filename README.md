@@ -11,41 +11,8 @@
 
 ### Daagn app review analysis
 (2020.06, 개인 프로젝트)
-* [바로가기](https://github.com/sweetpersimmon/Data-Science-Portfolio/tree/main/daangn-app-review-analysis) / [PDF](https://github.com/sweetpersimmon/Data-Science-Portfolio/blob/main/daangn-app-review-analysis/daangn%20app%20review%20analysis%20-%20report.pdf)<br>
-
-**■ Background**
-* 긍정적 리뷰와 부정 리뷰를 구분하는 데 영향으 미치는 키워드가 존재하며, 이를 분류기로 구현했을 때 충분히 구분해 내는지 확인
-* 긍정 혹은 부정적인 상황에서 주로 사용하는 키워드를 시각화하여 현안 이슈 파악
-
-**■ Tools**
-* Python, Keras<br>
-
-**■ Summary**<br><br>
-**1. Data Collection**
-  * [구글 플레이 스토어](https://play.google.com/store/apps/details?id=com.towneers.www&hl=ko&gl=US)에서 당근마켓의 최근 2142건의 리뷰와 별점을 selenium으로 크롤링 후 각 리뷰의 긍정(1)과 부정(0)으로 수동 라벨링
-  * 총 2142건, 긍정 1534건 / 부정 608건
-
-**2. Data Processing**
-  * 한국어로 작성된 내용을 처리하기 위해 특수문자 및 영문 제거, 텍스트 리뷰 없이 별점만 매긴 리뷰 삭제<br>
-  * 수집 데이터로 Word Cloud 생성하여 주로 사용된 어휘 파악
-  * Tokenizer : Twitter 한국어 처리기에서 파생된 오픈소스 한국어 처리기 Okt를 이용하여 형태소 분석
-
-**3. Model & Algorithms**
-  * 긍/부정 리뷰 분류기 생성 - LSTM, Lime
-    * LSTM의 장점 적기
-    * 리뷰 내에서 긍정 혹은 부정 판별에 영향을 미치는 어휘와 영향의 정도를 그래프로 나타내기 위해 Lime으로 시각화
-  * 키워드 분석 - FastText, t-SNE
-    * facebook의 FastText 알고리즘으로 3개 차원에 워드 임베딩 후 t-SNE로 시각화하여 키워드들의 군집 특성 파악
-
-**5. Report**
-  * 각 평가는 긍정 혹은 부정적인 의견은 확연히 구분되는 문장 구성을 갖추고 있음을 확인했으며, 감성 분류 모델을 통해 해당 어플을 이용하는 고객이 불만족스러운 리뷰를 남겼을 때, 자동으로 탐지할 수 있도록 함
-  * 긍/부정 감성 별 주요 키워드를 시각화 함으로써 당근 마켓의 현안을 탐색학 도출된 장단점을 통해 고객경험을 효율적으로 관리하고 개선 사항을 쉽게 파악할 수 있음
-
-**6. Review**
-  * 사전에 Word Cloud를 그릴 때, 긍/부정 리뷰에 초점을 둔 만큼 감성 구분 별 시각화를 진행했다면 내용을 파악하는 데 도움이 되었을 것으로 보임
-  * BiLSTM을 사용하여 순방향과 역방향의 결과를 모두 활용하고 싶었지만 결과에서 큰 차이가 나지 않았음
-  * CNN 레이어를 결합하는 등 모델 구조적인 측면에서 다양한 시도를 해 보지 못해 아쉬움
-  * 프로젝트 당시 LSTM의 모델을 Lime에 동일하게 적용한 시각화에 실패했었으나 일관적이 결과 해석을 위해 해결 방안을 탐색 후 코드 개선 예정
+* [Notebook](https://github.com/sweetpersimmon/Data-Science-Portfolio/tree/main/daangn-app-review-analysis/code) / [PDF](https://github.com/sweetpersimmon/Data-Science-Portfolio/blob/main/daangn-app-review-analysis/daangn%20app%20review%20analysis%20-%20report.pdf)<br>
+* [구글 플레이 스토어](https://play.google.com/store/apps/details?id=com.towneers.www&hl=ko&gl=US)내 중고거래 서비스 당근마켓 어플의 최근 리뷰 텍스트를 감성분석하여 긍/부정 여부를 예측할 수 있는 분류기를 생성하고, 해당 감성에 각 어휘가 영향을 미치는 정도를 시각화했습니다. 또한 긍/부정 리뷰에서 주로 사용하는 키워드를 좌표 평면에 나타내어 키워드 군집을 확인하고 군집 별 특성을 파악했습니다.
 <br><br>
 
 ### Ko-en machine translation
