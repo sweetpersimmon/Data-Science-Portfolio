@@ -1,6 +1,7 @@
 # Seq2seq with attention을 이용한 한글-영어 기계번역
 **■ Background**
-* 긍정적 리뷰와 부정 리뷰를 구분하는 데 영향을 미치는 키워드가 존재하며, 이를 분류기로 구현했을 때 충분히 구분해 내는지 확인
+* s2s with attention을 이용한 기계번역을 구현한 예시는 주로 영어-스페인어 위주로 스페인어와 영어 단어의 유사성, 스페인어 언어 구조의 규칙성 등의 사유로 번역 결과가 매끄러운 경우가 많이 관찰됨
+* 영어와 한국어는 문장 구조, 어휘 등 차이점이 많은ㄷ 그럼엗 불구하고 기계번역을 잘 구현할 수 있을지 직접 실험해 보고자 함
 <br><br>
 
 **■ Tools**
@@ -9,26 +10,27 @@
 
 **■ Summary**<br><br>
 **1. Data Collection**
-  * [Ai-Hub에서 한국어-영어 번역(병렬) 말뭉치](https://play.google.com/store/apps/details?id=com.towneers.www&hl=ko&gl=US) 중 구어체 데이터셋 2만 문장을 대상으로 훈련
+  * [Ai-Hub에서 한국어-영어 번역(병렬) 말뭉치](https://play.google.com/store/apps/details?id=com.towneers.www&hl=ko&gl=US) 중 구어체 데이터셋에서 2만 문장을 대상으로 훈련
 <br>
 
 **2. Data Processing**
-  * 특수문자만 제거 후 Subword Tokenizer로 SentencePiece 사용
+  * 특수문자만 제거 후 Subword Tokenizer인 SentencePiece로 토큰화
+  * 2만 개의 대용량 데이터의 전처리를 효율적으로 수행하기 위해 tf.data.dataset 모듈 사용하여 훈련/검증 데이터셋 생성
 <br>
 
 **3. Model & Algorithms**
   * Seq2seq with attention
-    * rnn 구조의 encoder와 encoder에 각각 gru 사용
-    * Bahdanau attention 사용(설명 추가)
+    * rnn 구조의 encoder와 decoder에 각각 2개의 gru 레이어 사용, decoder에 Bahdanau attention을 추가하여 architecture 구성
+    * 훈련 및 검증 데이터셋의 BLEU score의 중위수가 각각 0.66, 0.62 달성
 <br>
 
 **5. Report**
-  * 각 평가는 긍정 혹은 부정적인 의견은 확연히 구분되는 문장 구성을 갖추고 있음을 확인했으며, 감성 분류 모델을 통해 해당 어플을 이용하는 고객이 불만족스러운 리뷰를 남겼을 때 자동으로 탐지할 수 있도록 함
-  * 긍/부정 감성 별 주요 키워드를 시각화 함으로써 당근 마켓의 현안을 탐색학 도출된 장단점을 통해 고객경험을 효율적으로 관리하고 개선 사항을 쉽게 파악할 수 있음
+  * BLEU score는 0.6 정도로 예상보다 좋은 점수가 나왔지만, attention plot을 살펴본 결과 번역된 개별 문장의 퀄리티는 생각보다 높지 않은 것으로 보임
+  * 긴 문장의 경우 같은 단어만 계속 반복되는 등 비교적 짧은 문장에서 더 매끄러운 번역이 관찰됨
 <br>
 
 **6. Review**
-  * Word Cloud를 그릴 때, 긍/부정 리뷰에 초점을 둔 만큼 감성 구분 별 시각화를 진행했다면 내용을 파악하는 데 도움이 되었을 것으로 보임
-  * BiLSTM으로 순방향과 역방향의 결과를 모두 활용하고 싶었지만 성능에서 큰 차이가 없어 사용하지 않았지만 CNN 레이어를 결합하는 등 모델 구조적인 측면에서 다양한 시도의 필요성이 보임
-  * 프로젝트 당시 Lime 시각화 과정에서 LSTM의 모델을 동일하게 적용하지 못하고 dense 레이어로만 구현 -> 일관적인 결과 해석을 위해 해결 방안을 탐색 후 코드 개선 예정
+  * BLEU score와 attention plot 결과 간 격차를 줄이기 위한 방안이 필요
+  * 한국어 형태소 분석 시 [조사를 제거한 후 SentencePiece Unigram을 적용 시 성능이 향상된다는 연구](http://hiai.co.kr/wp-content/uploads/2019/12/논문증빙_2019_06.pdf)가 있어 발전된 tokenizer를 사용하는 것을 고려
+  * attention을 적용했음에도 long-term dependency problem을 해결하지 못했음 => transformer 모형의 적용 고려
 <br><br>
