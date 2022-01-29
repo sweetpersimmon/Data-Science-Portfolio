@@ -29,7 +29,7 @@
 <br><br>
 
 ### DACON news topic classification
-(2020. 06 ~ 08, 팀 참여)
+(2021. 06 ~ 08, 팀 참여)
 - [Notebook](https://github.com/sweetpersimmon/Data-Science-Portfolio/tree/main/dacon-news)
 - [월간 데이콘 17, 뉴스토픽 분류 AI 경진대회](https://dacon.io/competitions/official/235747/overview/description)<br>
 - 월간 데이콘에 참가하여 한국어 뉴스 헤드라인을 이용항 뉴스의 주제를 분류하는 알고리즘을 개발했습니다. 한국어 뉴스 헤드라인의 특성을 감안해 한문을 번역하여 사용된 언어의 종류를 줄이는 등 다양한 데이터 전처리를 시도하였고 **KoBert, KoELECTRA, Roberta** 세 개의 언어모델을 앙상블하여 뉴스의 각 토핑을 분류했습니다. 최종 결과로 **상위 4%를 기록**했습니다.
