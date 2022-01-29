@@ -25,7 +25,7 @@
 (2020.08 ~ 12, 팀 참여)
 - [바로가기](https://github.com/sweetpersimmon/Data-Science-Portfolio/tree/main/2020-bigcontest) / [PDF](https://github.com/sweetpersimmon/Data-Science-Portfolio/blob/main/2020-bigcontest/혁신아이디어분야_코로나나빠_결과보고서.pdf)
 - 혁신아이디어 부문에 참가하여 뉴노멀 시대 준비를 위한 서비스 아이디어 및 PoC(Proof Of Concept) 결과를 제시하는 과제를 받았습니다.<br>
-  저희 팀은 산업 평가 인덱스 개발을 통해 코로나 시기의 취약 산업군을 선별했습니다. 그 후 해당 산업군의 회복을 위한 **비대면 중고거래 자판기의 입지선정 아이디어**를 제시하여 최우수상을 수상하였습니다.
+  저희 팀은 산업 평가 인덱스 개발을 통해 코로나 시기의 취약 산업군을 선별한 후 해당 산업군의 회복을 위한 **비대면 중고거래 자판기의 입지선정 아이디어**를 제시하여 최우수상을 수상하였습니다.
 <br><br>
 
 ### DACON news topic classification
