@@ -24,28 +24,13 @@
 ### 2020 bigcontest
 (2020.08 ~ 12, 팀 참여)
 - [바로가기](https://github.com/sweetpersimmon/Data-Science-Portfolio/tree/main/2020-bigcontest) / [PDF](https://github.com/sweetpersimmon/Data-Science-Portfolio/blob/main/2020-bigcontest/혁신아이디어분야_코로나나빠_결과보고서.pdf)
-- 혁신아이디어 부문에 참가하여 뉴노멀 시대 준비를 위한 서비스 아이디어 및 PoC(Proof Of Concept) 결과를 제시하는 
-  ```
-  산업 평가 인덱스 개밤을 통한 코로나 시기의 취약 산업군 선별
-  해당 산업군의 회복을 위한 비대면 중고거래 자판기의 입지선정
-  ```
-- 데이터 목록(대회 데이터 사용 문제와 용량 제한으로 인하여 본 저장소에는 업로드하지 않았습니다.)
-  |제공데이터|외부데이터|
-  |----|----|
-  |데이터이름|데이터이름|
-- 분석 과정
-  - [EDA](https://github.com/sweetpersimmon/Data-Science-Portfolio/tree/main/2020-bigcontest/eda)
-  - [Index](https://github.com/sweetpersimmon/Data-Science-Portfolio/tree/main/2020-bigcontest/index)
-  - [MCLP](https://github.com/sweetpersimmon/Data-Science-Portfolio/tree/main/2020-bigcontest/mclp)
-- 내 역할
-- 기여자
+- 혁신아이디어 부문에 참가하여 뉴노멀 시대 준비를 위한 서비스 아이디어 및 PoC(Proof Of Concept) 결과를 제시하는 과제를 받았습니다.<br>
+  저희 팀은 산업 평가 인덱스 개발을 통해 코로나 시기의 취약 산업군을 선별했습니다. 그 후 해당 산업군의 회복을 위한 **비대면 중고거래 자판기의 입지선정 아이디어**를 제시하여 최우수상을 수상하였습니다.
 <br><br>
 
 ### DACON news topic classification
 (2020. 06 ~ 08, 팀 참여)
 - [Notebook](https://github.com/sweetpersimmon/Data-Science-Portfolio/tree/main/dacon-news)
 - [월간 데이콘 17, 뉴스토픽 분류 AI 경진대회](https://dacon.io/competitions/official/235747/overview/description)<br>
-  ```
-  한국어 뉴스 헤드라인을 이용하여, 뉴스의 주제를 분류하는 알고리즘 개발
-  ```
-- ㅇ
+- 월간 데이콘에 참가하여 한국어 뉴스 헤드라인을 이용항 뉴스의 주제를 분류하는 알고리즘을 개발했습니다. 한국어 뉴스 헤드라인의 특성을 감안해 한문을 번역하여 사용된 언어의 종류를 줄이는 등 다양한 데이터 전처리를 시도하였고 **KoBert, KoELECTRA, Roberta** 세 개의 언어모델을 앙상블하여 뉴스의 각 토핑을 분류했습니다. 최종 결과로 **상위 4%**를 기록했습니다.
+<br><br>
