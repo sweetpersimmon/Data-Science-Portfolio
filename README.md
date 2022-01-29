@@ -24,7 +24,7 @@
 ### 2020 bigcontest
 (2020.08 ~ 12, 팀 참여)
 - [바로가기](https://github.com/sweetpersimmon/Data-Science-Portfolio/tree/main/2020-bigcontest) / [PDF](https://github.com/sweetpersimmon/Data-Science-Portfolio/blob/main/2020-bigcontest/혁신아이디어분야_코로나나빠_결과보고서.pdf)
-- 혁신아이디어 부문, 뉴노멀 시대 준비를 위한 서비스 아이디어 및 PoC(Proof Of Concept) 결과 제시
+- 혁신아이디어 부문에 참가하여 뉴노멀 시대 준비를 위한 서비스 아이디어 및 PoC(Proof Of Concept) 결과를 제시하는 
   ```
   산업 평가 인덱스 개밤을 통한 코로나 시기의 취약 산업군 선별
   해당 산업군의 회복을 위한 비대면 중고거래 자판기의 입지선정
@@ -43,22 +43,9 @@
 
 ### DACON news topic classification
 (2020. 06 ~ 08, 팀 참여)
-- [바로가기](https://github.com/sweetpersimmon/Data-Science-Portfolio/tree/main/dacon-news)
+- [Notebook](https://github.com/sweetpersimmon/Data-Science-Portfolio/tree/main/dacon-news)
 - [월간 데이콘 17, 뉴스토픽 분류 AI 경진대회](https://dacon.io/competitions/official/235747/overview/description)<br>
   ```
   한국어 뉴스 헤드라인을 이용하여, 뉴스의 주제를 분류하는 알고리즘 개발
   ```
-- YNAT(주제 분류를 위한 연합 뉴스 헤드라인) 데이터 세트를 활용해 주제 분류 알고리즘을 개발
-- 분석 과정(폴더 링크)
-- 내 역할
-- 기여자
-<br><br>
-
-### 2021 weather bigdata contest
-(2020.06 ~ 08, 팀 참여)
-- [바로가기]() / [PDF]()
-- 민간협력 부문, 날씨 변수 설정을 위한 재고관리 모델 및 군집화 제시(미완)
-- 활용 데이터
-- 분석 과정(폴더 링크)
-- 내 역할
-- 기여자
+- ㅇ
