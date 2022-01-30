@@ -1,4 +1,4 @@
-# Data-Science-Portfolio
+# Portfolio
 > 본 저장소는 지금까지 진행했던 프로젝트와 공모전 참여내용을 정리하는 곳입니다.<br>
 > 내용과 관련한 문의는 언제든지 gghdwl1103@gmail.com 로 해주시면 감사하겠습니다.
 
