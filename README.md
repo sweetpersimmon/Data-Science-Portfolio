@@ -5,7 +5,7 @@
 <br>
 
 ## Portfolio
-포트폴리오 업로드 된 pdf 주소 첨부
+[포트폴리오 pdf](https://github.com/sweetpersimmon/Portfolio/blob/main/portfolio-hjw.pdf)
 <br><br><br>
 ## Contents
 
