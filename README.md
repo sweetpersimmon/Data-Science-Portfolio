@@ -5,6 +5,7 @@
 <br>
 
 ## Portfolio
+(2022.01)
 [포트폴리오 pdf](https://github.com/sweetpersimmon/Portfolio/blob/main/portfolio-hjw.pdf)
 <br><br><br>
 ## Contents
