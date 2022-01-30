@@ -20,13 +20,14 @@
 
 **3. Model & Algorithms**
   * Seq2seq with attention
-    * rnn 구조의 encoder와 decoder에 각각 2개의 gru 레이어 사용, decoder에 Bahdanau attention을 추가하여 architecture 구성
+    * seq2seq 모델은 시퀀스 길이와 순서를 자유롭게 하여 두 언어간 번역 같은 task에 탁월한 성능을 보유, attention 매커니즘을 추가하여 중요한 단어에 집중할 수 있도록 함
+    * rnn 구조의 encoder와 decoder에 각각 2개의 gru 레이어 사용, decoder에 Bahdanau attention을 추가하여 전체 architecture 구성
     * 훈련 및 검증 데이터셋의 BLEU score의 중위수가 각각 0.66, 0.62 달성
 <br>
 
 **5. Report**
   * BLEU score는 0.6 정도로 예상보다 좋은 점수가 나왔지만, attention plot을 살펴본 결과 번역된 개별 문장의 퀄리티는 생각보다 높지 않은 것으로 보임
-  * 긴 문장의 경우 같은 단어만 계속 반복되는 등 비교적 짧은 문장에서 더 매끄러운 번역이 관찰됨
+  * 긴 문장의 경우 같은 단어만 계속 반복되는 등의 문제가 보이는 데 반해, 비교적 짧은 문장은 더 매끄러운 번역이 관찰됨
 <br>
 
 **6. Review**
