@@ -18,8 +18,8 @@
 <br>
 
 **3. Model & Algorithms**
-  * KoBERT, KoELECTRA 모델의 훈련을 담당
-    * KoBERT : 뉴스 기사의 comment까지 학습한 KcBERT 모델도 있지만, 동일한 데이터셋으로 훈련했을 때 뉴스 기사만 학습한 KoBERT 모델이 더 좋은 성능을 보임
+  * KcBERT, KoELECTRA 모델의 훈련을 담당
+    * KcBERT : 뉴스 기사만 학습한 KoBERT 모델도 있지만, 동일한 데이터셋으로 훈련했을 때 뉴스 기사의 comment까지 학습한 KcBERT 모델이 더 좋은 성능을 보임
     * KoELECTRA : 기존 BERT의 문제점인 학습 데이터 사용의 비효율성을 극복하기 위한 ELECTRA 아키텍쳐 기반으로 학습하여 더 좋은 성능을 보임
   * 모델 차원에서 attention dropout, hidden dropout을 적용하고 AdamW optimizer를 사용하여 weight decay 효과를 보임으로써 성능 향상
 <br>
