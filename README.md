@@ -18,7 +18,7 @@
 
 ### Ko-en machine translation
 (2020.06, 개인 프로젝트)
-* [Notebook](https://github.com/sweetpersimmon/Data-Science-Portfolio/blob/main/ko-en-machine-translation/Seq2seq%20with%20attention(machine%20translation) / [PDF](https://github.com/sweetpersimmon/Data-Science-Portfolio/blob/main/ko-en-machine-translation/Seq2seq%20with%20attention(machine%20translation).pdf)
+* [Notebook](https://github.com/sweetpersimmon/Data-Science-Portfolio/blob/main/ko-en-machine-translation/Seq2seq%20with%20attention(machine%20translation)) / [PDF](https://github.com/sweetpersimmon/Data-Science-Portfolio/blob/main/ko-en-machine-translation/Seq2seq%20with%20attention(machine%20translation).pdf)
 * [Ai-Hub의 한국어-영어 번역(병렬) 말뭉치](https://aihub.or.kr/aidata/87)의 구어체 데이터셋 2만 개를 사용하여 Seq2seq with attention 기반의 한글-영어 간 기계번역 알고리즘을 구현했습니다. 기존에 알려진 **RNN 베이스 모델 GRU에 Bahdanau Attention**을 더해서 구현된 코드는 스페인어와 영어 간의 번역을 보여주었습니다. 이번 프로젝트에서는 자연어 처리 측면에서 한국어가 가지는 특성에 유의하며 한글-영어 번역의 정확도를 올리는 것에 초점을 맞췄습니다.
 <br><br>
 
