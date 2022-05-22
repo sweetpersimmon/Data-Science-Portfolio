@@ -4,7 +4,7 @@
 * 긍정 혹은 부정적인 상황에서 주로 사용하는 키워드를 시각화하여 현안 이슈 파악<br><br>
 
 **■ Tools**
-* Python, Keras<br><br>
+* Python, Keras, Tensorflow<br><br>
 
 **■ Summary**<br><br>
 **1. Data Collection**
